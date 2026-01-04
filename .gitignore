@@ -1,0 +1,7 @@
+.venv/
+backend/venv/
+data/val/fire/*.mp4
+data/val/fire/*.mov
+*.dll
+*.lib
+*.pyd
