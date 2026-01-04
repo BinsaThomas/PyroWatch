@@ -1,7 +1,22 @@
+# Python virtual environments
+venv/
 .venv/
 backend/venv/
-data/val/fire/*.mp4
-data/val/fire/*.mov
-*.dll
-*.lib
-*.pyd
+backend/__pycache__/
+
+# Python cache files
+*.pyc
+__pycache__/
+
+# Large data/videos
+data/
+fire_dataset/
+runs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/project settings (optional)
+.vscode/
+.idea/
